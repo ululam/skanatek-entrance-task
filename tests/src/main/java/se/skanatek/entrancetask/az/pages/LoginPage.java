@@ -27,7 +27,7 @@ public class LoginPage extends PageObject {
 
     public String getLoginResultText() {
         WebElementFacade div = $("#helloDiv");
-        
+
         return div == null ? "" : div.getText();
     }
 }

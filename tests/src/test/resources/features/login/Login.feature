@@ -5,7 +5,6 @@ Feature: Log in to web application
 
   @Chrome
   Scenario: Basic login into the user's area
-#    todo Url as parameter
     Given I visit 'http://localhost:8000'
     When I log in using email 'alexey.zakharchenko@gmail.com' and password 'top_secret_password_124'
     Then I should see the text 'Welcome, Alexey Zakharchenko'

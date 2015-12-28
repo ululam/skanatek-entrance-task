@@ -13,9 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>1.0.24</serenity.version>
         <serenity.cucumber.version>1.0.4</serenity.cucumber.version>
-        <!-- @todo Firefox-->
-        <!-- @todo Remove chrome dependencies -->
-        <webdriver.driver>chrome</webdriver.driver>
+        <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
     <dependencies>

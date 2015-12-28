@@ -13,10 +13,6 @@ public class UserSteps extends ScenarioSteps {
 
     @Step
     public void visitWebApp(String url) {
-//      @todo Remove line
-        System.setProperty("webdriver.chrome.driver", "C:\\dev\\skanatek\\skanatek-entrance-task\\tests\\lib\\chromedriver.exe");
-
-//        loginPage.open();
         loginPage.open(url);
     }
 
